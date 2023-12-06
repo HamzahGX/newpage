@@ -1,0 +1,68 @@
+/* Your existing styles */
+
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: 550px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Updated styles to make pagination and slider button purple */
+.swiper-pagination-bullet {
+  width: 14px; /* Adjust the width of pagination bullets */
+  height: 14px; /* Adjust the height of pagination bullets */
+  background-color: purple;
+}
+
+.swiper-pagination-bullet-active {
+  width: 14px; /* Adjust the width of active pagination bullet */
+  height: 14px; /* Adjust the height of active pagination bullet */
+  background-color: purple;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  
+  font-size: 20px; 
+  color: purple;
+}
+
+/* Optional: Add hover effect to the buttons */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #fff; 
+}

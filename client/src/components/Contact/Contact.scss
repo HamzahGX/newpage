@@ -1,0 +1,55 @@
+.contact {
+  background-color: #ddb1e3;
+  color:rgb(117, 17, 171);
+  padding: 85px;
+  display: flex;
+  justify-content: center;
+
+  .wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      font-size: 18px; 
+      font-weight: bold;
+    }
+
+    input {
+      padding: 18px;
+      border: none;
+      border-radius: 10px 0 0 10px;
+      width: 280px;
+    }
+
+    button {
+      padding: 18px;
+      color: white;
+      background: rgb(130, 29, 184);
+      border-radius: 0 10px 10px 0;
+      border: none;
+      cursor: pointer;
+      transition: filter 0.3s;
+
+      &:hover {
+        filter: brightness(2.1); // Adjust brightness for the desired light-up effect
+      }
+    }
+
+    .icons {
+      display: flex;
+      gap: 12px;
+
+      svg {
+        font-size: 35px;
+        cursor: pointer;
+        transition: filter 0.3s;
+
+        &:hover {
+          filter: brightness(2.8); // Adjust brightness for the desired light-up effect
+        }
+      }
+    }
+  }
+}

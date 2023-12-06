@@ -1,0 +1,45 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: rgb(246, 244, 244);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .text {
+    color: rgb(203, 131, 203);
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .underline {
+    width: 61px;
+    height: 6px;
+    background: rgb(212, 154, 212);
+    border-radius: 9px;
+  }
+  
+  .content {
+    margin-top: 20px;
+    color: rgb(75, 0, 130);
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .content p {
+    margin-bottom: 15px;
+  }
+  
